@@ -28,6 +28,9 @@ How it works:
 2. **Pitch is “study this / get your hands dirty”** → it belongs in **[galhoom-path](https://github.com/galhoom-path)**.
 3. A practice project stays on Path until it becomes a real product people rely on — then the product home is Labs.
 
+
+**Siblings:** Path and Labs complete each other — Path grows developers; Labs ships real products. A request that belongs in the other org should be redirected, not forced here.
+
 ```mermaid
 flowchart TB
   LABS["🧪 galhoom-labs"]
