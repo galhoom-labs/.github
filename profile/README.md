@@ -13,9 +13,19 @@ If you open **galhoom-labs**, you are here for **products**: websites, mobile ap
 | CLIs, extensions, helpers | Interview / DSA practice |
 | Games & other usable products | Practice-only learning builds |
 
+### Projects in this org
+
+Repos here are **real products**.
+
+- **Goal:** use and benefit — open it, install it, run it, ship value.
+- Web, mobile, desktop, extensions, CLIs, games, or any other usable form.
+- Mindset: *“I built this for people to use.”*
+
+Practice / applied projects whose only job is learning stay in **[galhoom-path](https://github.com/galhoom-path)**.
+
 How it works:
 1. **Pitch is “use this”** → it belongs here.
-2. **Pitch is “study this / follow the path”** → it belongs in **[galhoom-path](https://github.com/galhoom-path)**.
+2. **Pitch is “study this / get your hands dirty”** → it belongs in **[galhoom-path](https://github.com/galhoom-path)**.
 3. A practice project stays on Path until it becomes a real product people rely on — then the product home is Labs.
 
 ```mermaid
@@ -42,4 +52,4 @@ flowchart TB
 
 </div>
 
-**Promise in one line:** Path = learn & grow. Labs = real products.
+**Promise in one line:** Path = learn & grow (practice projects). Labs = real products.
