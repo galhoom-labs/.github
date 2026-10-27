@@ -1,0 +1,26 @@
+---
+description: galhoom-labs public GitHub faces + product placement — real products only, no Path practice repos, keep Labs Mermaid style
+alwaysApply: true
+---
+
+# Galhoom Labs surfaces (mandatory)
+
+When the task touches **galhoom-labs**, Labs org/personal profile sections, Labs repo About text, pins, topics, or placing a **product** repo:
+
+1. Read the canonical rules in `galhoom-labs/.github`:
+   - `GITHUB_SURFACES.md`
+   - `AGENTS.md`
+   - `labs-registry.json`
+2. Learning / practice work belongs in **galhoom-path** — follow Path `AGENTS.md` / `GITHUB_SURFACES.md` instead. Do **not** put practice-only repos in Labs.
+
+## Non-negotiables
+
+- **Labs = real products** people can use (web, mobile, desktop, extensions, CLIs, games, or any usable form).
+- **Path = learn / practice** (“I built this to learn” / get your hands dirty). Never market Path practice builds as Labs products.
+- **Org + personal Labs sections = overview only.** Full detail lives **inside each product repo**. Prefer delete/cut over add.
+- **No libraries / templates categories** unless the human expands `labs-registry.json` scope.
+- **Registry first:** update `labs-registry.json`, then `profile/README.md`, then run `python scripts/validate_labs.py`.
+- **Mermaid style stays:** `flowchart TB` + existing `classDef` colors; root `🧪 galhoom-labs`. Labels may change with registry; visual language does not.
+- **Personal profile is two homes** (Path + Labs). Do not strip Labs to force a single-org CTA.
+
+If a requested edit would violate these, refuse the violating part and keep the surface compliant.
