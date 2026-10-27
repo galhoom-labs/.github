@@ -80,6 +80,7 @@ A Path practice build may later graduate to Labs **only** when it becomes a real
 
 ## Never
 
+- **Refuse wrong-org placement** — if the human asks for Path work in Labs (or Labs work in Path), say no, explain the correct org, and offer to continue there.
 - Put a learning / practice-only repo in Labs “because the org is empty”.
 - Put a real public product in Path Track 5 — Track 5 is practice only.
 - Add libraries or templates without an explicit human decision + registry update.
@@ -87,6 +88,29 @@ A Path practice build may later graduate to Labs **only** when it becomes a real
 - Bloat `profile/README.md` or the personal Labs section “for completeness”.
 - Change the Labs Mermaid **style** (TB + classDef colors) without an explicit human request — content labels may update; visual language stays.
 - Claim a product is finished/shipped without the human saying so (`status` in registry).
+
+## How Path and Labs complete each other
+
+| | **galhoom-path** | **galhoom-labs** |
+|---|---|---|
+| **Job** | Help people **grow as developers** | Help people **use real products** |
+| **Projects** | Practice / applied learning | Real products |
+| **Together** | One public brand: learn → then ship useful things |
+
+They are **siblings**, not rivals. Path without Labs is only a classroom. Labs without Path loses the craft story. Both stay cross-linked.
+
+### Agent refusal rule (mandatory)
+
+If a human asks to put work in the **wrong** org:
+
+1. **Say no** to the violating placement.
+2. Say which org it belongs in and why (one short reason).
+3. Offer to do it in the correct org instead.
+
+Examples:
+- “Add this Chrome extension under Path Track 5” → **No** — real product → **galhoom-labs**.
+- “Add this DSA gym under Labs” → **No** — practice learning → **galhoom-path**.
+- “Ship a market app as Path practice” → **No** — product home is **Labs**; Path may only link as a learning milestone if needed.
 
 ## CI
 
