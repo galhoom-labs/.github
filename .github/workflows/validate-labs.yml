@@ -1,0 +1,32 @@
+name: Validate Galhoom Labs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "labs-registry.json"
+      - "profile/README.md"
+      - "scripts/validate_labs.py"
+      - ".github/workflows/validate-labs.yml"
+  pull_request:
+    paths:
+      - "labs-registry.json"
+      - "profile/README.md"
+      - "scripts/validate_labs.py"
+      - ".github/workflows/validate-labs.yml"
+
+jobs:
+  validate-labs:
+    name: Labs registry ↔ profile README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Labs map
+        run: python scripts/validate_labs.py
