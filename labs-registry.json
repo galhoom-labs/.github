@@ -2,10 +2,10 @@
   "$schema_comment": "Canonical Galhoom Labs product map. Agents MUST read this before creating or placing any Labs repo. CI validates profile/README.md against this file.",
   "version": 1,
   "organization": "galhoom-labs",
-  "promise": "Real products people can use — not a learning path.",
+  "promise": "Real products people can use \u2014 not a learning path.",
   "sibling_org": {
     "login": "galhoom-path",
-    "promise": "Learn and progress — practice / applied projects to grow.",
+    "promise": "Learn and progress \u2014 practice / applied projects to grow.",
     "url": "https://github.com/galhoom-path"
   },
   "scope": {
@@ -29,36 +29,36 @@
       "id": 1,
       "key": "apps",
       "name": "Apps",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "role": "Web, mobile, or desktop applications people use.",
-      "diagram_label": "1 · 🌐 Apps",
-      "item_label": "Web · Mobile · Desktop"
+      "diagram_label": "1 \u00b7 \ud83c\udf10 Apps",
+      "item_label": "Web \u00b7 Mobile \u00b7 Desktop"
     },
     {
       "id": 2,
       "key": "tools-extensions",
       "name": "Tools & extensions",
-      "emoji": "🛠️",
+      "emoji": "\ud83d\udee0\ufe0f",
       "role": "CLIs, browser extensions, generators, bots, helpers people run.",
-      "diagram_label": "2 · 🛠️ Tools & extensions",
-      "item_label": "CLIs · Chrome extensions · helpers"
+      "diagram_label": "2 \u00b7 \ud83d\udee0\ufe0f Tools & extensions",
+      "item_label": "CLIs \u00b7 Chrome extensions \u00b7 helpers"
     },
     {
       "id": 3,
       "key": "more-products",
       "name": "More products",
-      "emoji": "🎮",
+      "emoji": "\ud83c\udfae",
       "role": "Games and other usable products that are not a clear App or Tool.",
-      "diagram_label": "3 · 🎮 More products",
-      "item_label": "Games · anything people can use"
+      "diagram_label": "3 \u00b7 \ud83c\udfae More products",
+      "item_label": "Games \u00b7 anything people can use"
     }
   ],
   "repos": [],
   "placement_algorithm": [
     "1. Confirm the pitch is use-this (real product), not study-this / practice-only.",
     "2. Classify into exactly one category using category.role (Apps / Tools & extensions / More products).",
-    "3. Never invent a 4th category or reorder 1–3 without updating this registry first and explicit human approval.",
-    "4. Assign the next ID in that category: max existing M for category N → new id N.(M+1).",
+    "3. Never invent a 4th category or reorder 1\u20133 without updating this registry first and explicit human approval.",
+    "4. Assign the next ID in that category: max existing M for category N \u2192 new id N.(M+1).",
     "5. Update labs-registry.json FIRST, then profile/README.md, then Galhoom22 Labs section if the map would otherwise lie.",
     "6. Run scripts/validate_labs.py locally (or wait for CI) before considering the change done.",
     "7. New repos start with status draft or building unless the human explicitly sets shipped.",
@@ -71,6 +71,16 @@
     "Adding Libraries or Templates as categories without an explicit human decision",
     "Skipping the registry and only editing profile/README.md",
     "Changing Mermaid visual style (TB + classDef) without an explicit human request",
-    "Claiming shipped without human confirmation"
-  ]
+    "Claiming shipped without human confirmation",
+    "Accepting a wrong-org placement instead of refusing and redirecting to the sibling org"
+  ],
+  "complement": {
+    "with": "galhoom-path",
+    "model": "siblings",
+    "public_value": [
+      "Developers grow via Path (study + practice)",
+      "Users benefit via Labs (real products)"
+    ],
+    "refusal_rule": "Refuse wrong-org placement; redirect to the sibling org with a one-line reason."
+  }
 }
