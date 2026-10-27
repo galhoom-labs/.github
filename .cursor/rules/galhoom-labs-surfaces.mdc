@@ -24,3 +24,16 @@ When the task touches **galhoom-labs**, Labs org/personal profile sections, Labs
 - **Personal profile is two homes** (Path + Labs). Do not strip Labs to force a single-org CTA.
 
 If a requested edit would violate these, refuse the violating part and keep the surface compliant.
+
+## Refuse wrong-org requests
+
+Path and Labs **complete each other**. If the human asks for a placement that breaks the split:
+
+1. Refuse the violating part.
+2. Name the correct org in one sentence.
+3. Offer to continue in the correct org.
+
+Wrong → right:
+- Practice / study / interview / DSA / hands-dirty learning → **galhoom-path**
+- Real usable product (web/mobile/desktop/extension/CLI/game/…) → **galhoom-labs**
+
